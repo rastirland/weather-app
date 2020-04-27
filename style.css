@@ -4,7 +4,7 @@
 
 body{
     margin-top: 100px;
-    background-color: #293251;
+    background-color: rgb(4, 119, 4);
 }
 p {
     margin-top: 15px;
@@ -32,7 +32,7 @@ p {
     padding: 15px;
     margin: 0 auto;
     font-size: 1.2em;
-    color: #293251;
+    color: green;
 }
 
 .notification{
@@ -72,7 +72,7 @@ p {
 .temperature-value p{
     padding: 0;
     margin: 0;
-    color: #293251;
+    color: green;
     font-size: 4em;
     text-align: center;
     cursor: pointer;
@@ -80,7 +80,7 @@ p {
 
 
 .temperature-value span{
-    color: #293251;
+    color: green;
     font-size: 0.5em;
 }
 
@@ -89,7 +89,7 @@ p {
 .temperature-description p {
     padding: 22px;
     margin: 0;
-    color: #293251;
+    color: green;
     text-align: center;
     font-size: 1.2em;
 }
@@ -99,7 +99,7 @@ p {
 .location p{
     margin: 0;
     padding: 0;
-    color: #293251;
+    color: green;
     text-align: center;
     font-size: 0.8em;
 }
