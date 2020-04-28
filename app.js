@@ -43,7 +43,7 @@ function showError(error){
 
 // grab data from provider API / we are bringing in json API data to our app using fetch below
 function getWeather(latitude, longitude){
-    let api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
+    let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
     //below is an object - just the first bit dealing with data
     fetch(api)
         .then(function(response){
